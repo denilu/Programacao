@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import Lista from './Lista';
 class App extends Component {
     constructor(props) {
         super(props)
@@ -53,6 +53,7 @@ render() {
                 </form>
             </div>
             <button onClick={this.mudarEstado}>Mudar estado</button>
+            <Lista></Lista>
         </div>
 
     );
